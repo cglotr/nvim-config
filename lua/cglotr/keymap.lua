@@ -1,5 +1,6 @@
-vim.keymap.set('n', '<leader>v', vim.cmd.Ex)
+vim.keymap.set('n', '<leader>b', vim.cmd.Ex)
 vim.keymap.set('n', '<leader>s', vim.cmd.Sex)
+vim.keymap.set('n', '<leader>v', vim.cmd.Vex)
 vim.keymap.set('n', '<leader>q', vim.cmd.q)
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
