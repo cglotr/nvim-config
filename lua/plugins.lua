@@ -47,5 +47,8 @@ return {
     },
     {
         'mbbill/undotree'
+    },
+    {
+        'jeffkreeftmeijer/vim-numbertoggle'
     }
 }
