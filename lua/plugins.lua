@@ -27,24 +27,12 @@ return {
     -- LSP Support
     {
         'VonHeikemen/lsp-zero.nvim',
-        branch = 'v3.x',
-        lazy = true,
-        config = false,
+        branch = 'v4.x',
     },
-    {
-        'neovim/nvim-lspconfig',
-        dependencies = {
-            {'hrsh7th/cmp-nvim-lsp'},
-        }
-    },
+    {'neovim/nvim-lspconfig'},
+    {'hrsh7th/cmp-nvim-lsp'},
+    {'hrsh7th/nvim-cmp'},
 
-    -- Autocompletion
-    {
-        'hrsh7th/nvim-cmp',
-        dependencies = {
-            {'L3MON4D3/LuaSnip'}
-        },
-    },
     {
         'mbbill/undotree'
     },
