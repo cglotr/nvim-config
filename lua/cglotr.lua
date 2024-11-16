@@ -4,6 +4,8 @@ vim.keymap.set("n", "<leader>v", vim.cmd.Ex)
 
 vim.o.nu = true
 vim.o.rnu = true
+vim.o.termguicolors = true
+vim.o.colorcolumn = "80,100,120"
 
 -- https://neovim.io/doc/user/pi_netrw.html#netrw-variables
 vim.g.netrw_banner = 0
