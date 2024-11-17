@@ -8,6 +8,7 @@ vim.o.termguicolors = true
 vim.o.colorcolumn = "80,100,120"
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
+vim.o.expandtab = true
 
 -- https://neovim.io/doc/user/pi_netrw.html#netrw-variables
 vim.g.netrw_banner = 0
