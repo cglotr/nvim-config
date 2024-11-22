@@ -10,7 +10,7 @@ vim.o.tabstop = 4
 vim.o.shiftwidth = 4
 vim.o.expandtab = true
 vim.o.list = true
-vim.o.listchars = "tab:―→,trail:·,nbsp:+,space:·"
+vim.o.listchars = "tab:· ,trail:·,nbsp:+,space:·"
 
 -- https://neovim.io/doc/user/pi_netrw.html#netrw-variables
 vim.g.netrw_banner = 0
